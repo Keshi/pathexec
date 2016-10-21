@@ -1,16 +1,12 @@
 package main
 
 import (
-
 	"os"
 	"fmt"
-
-//	"os/exec"
 	"os/exec"
 )
 
 func main() {
-	//flag.Parse()
 	args := os.Args
 	numArgs := len(args)
 
